@@ -1,0 +1,5 @@
+pl\dupsa\gastronomy\GastronomyApp.class
+pl\dupsa\gastronomy\persistence\OrderItemDAO.class
+pl\dupsa\gastronomy\model\OrderItem.class
+pl\dupsa\gastronomy\model\Ingredient.class
+pl\dupsa\gastronomy\persistence\IngredientDAO.class

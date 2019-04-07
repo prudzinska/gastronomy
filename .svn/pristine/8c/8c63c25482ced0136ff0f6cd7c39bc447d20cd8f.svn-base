@@ -1,0 +1,18 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+	<table>
+		<thead>
+			<tr>
+				<th>id</th>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<c:forEach var="ord" items="${ords}">
+				<tr>
+					<td>${ord.id}</td>
+				</tr>
+			</c:forEach>
+		</tbody>
+	</table>
